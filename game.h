@@ -13,6 +13,7 @@ extern Ponto comida;
 extern GameState gameState;
 extern int timeUntilNextFoodSpawn;
 extern int score;
+extern int difficulty;
 
 void inicializar(int screenWidth, int screenHeight, int chosenDifficulty);
 void timer(int value);
